@@ -1,0 +1,9 @@
+<h1>Flat Listing</h1>
+
+<%= link_to 'Home', index_path %>
+
+<p><%= @flat['name'] %></p>
+<p>Price: <%= @flat['price'] %> <%= @flat['priceCurrency'] %></p>
+
+<%= image_tag @flat['imageUrl'], atl: @flat['name'] %>
+
