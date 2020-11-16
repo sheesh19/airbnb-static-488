@@ -3,7 +3,7 @@
 
 <ul>
   <% @flats.each do |flat| %>
-    <!-- flat_path is a method; we can give it params -->
+    <!-- flat_path is a method && we can give it params -->
     <li><%= link_to flat['name'], flat_path(flat['id']) %></li>
   <% end %>
 </ul>
